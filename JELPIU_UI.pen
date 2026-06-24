@@ -6721,6 +6721,1235 @@
                   "name": "Modal Showcase"
                 }
               ]
+            },
+            {
+              "type": "frame",
+              "id": "SY01x",
+              "name": "Bar Charts Row",
+              "width": "fill_container",
+              "gap": 16,
+              "padding": [
+                0,
+                24,
+                24,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f9YgE",
+                  "name": "Ingresos por mes",
+                  "width": "fill_container",
+                  "fill": "$neutral-0",
+                  "cornerRadius": 12,
+                  "stroke": "$border-default",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "k4L6V7",
+                      "name": "Card Header",
+                      "width": "fill_container",
+                      "padding": [
+                        16,
+                        20,
+                        12,
+                        20
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ti147",
+                          "name": "LblBlock",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "P1fWI3",
+                              "name": "Card Title",
+                              "fill": "$text-primary",
+                              "content": "Ingresos por mes",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "FiT67",
+                              "name": "Card Sub",
+                              "fill": "$text-secondary",
+                              "content": "Enero – Diciembre 2025",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zj8Qb",
+                          "name": "Legend Pill",
+                          "fill": "#3DA85A1A",
+                          "cornerRadius": 99,
+                          "stroke": "#3DA85A",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 99,
+                              "id": "xgsDW",
+                              "name": "Pill Dot",
+                              "fill": "#3DA85A",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "text",
+                              "id": "cFQDY",
+                              "name": "Pill Lbl",
+                              "fill": "$text-primary",
+                              "content": "Ene – Dic 2025",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "NFPEZ",
+                      "name": "HDivider",
+                      "fill": "$border-default",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YnEuq",
+                      "name": "Bar Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        16,
+                        20,
+                        0,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hDf6P",
+                          "name": "Bar Area",
+                          "width": "fill_container",
+                          "height": 134,
+                          "gap": 4,
+                          "padding": [
+                            0,
+                            0,
+                            4,
+                            0
+                          ],
+                          "alignItems": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "YVTKY",
+                              "name": "Col Ene",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "C0nUk",
+                                  "name": "Bar Ene",
+                                  "opacity": 0.75,
+                                  "fill": "#3DA85A",
+                                  "width": "fill_container",
+                                  "height": 64
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "gTGWf",
+                              "name": "Col Feb",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "YeyiR",
+                                  "name": "Bar Feb",
+                                  "opacity": 0.75,
+                                  "fill": "#3DA85A",
+                                  "width": "fill_container",
+                                  "height": 57
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "SAp7l",
+                              "name": "Col Mar",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "v0kHk",
+                                  "name": "Bar Mar",
+                                  "opacity": 0.75,
+                                  "fill": "#3DA85A",
+                                  "width": "fill_container",
+                                  "height": 75
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ro1op",
+                              "name": "Col Abr",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "uhd8p",
+                                  "name": "Bar Abr",
+                                  "opacity": 0.75,
+                                  "fill": "#3DA85A",
+                                  "width": "fill_container",
+                                  "height": 68
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "N5p1L2",
+                              "name": "Col May",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "Tlu4B",
+                                  "name": "Bar May",
+                                  "opacity": 0.75,
+                                  "fill": "#3DA85A",
+                                  "width": "fill_container",
+                                  "height": 85
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "OKH18",
+                              "name": "Col Jun",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "WY20E",
+                                  "name": "Bar Jun",
+                                  "opacity": 0.75,
+                                  "fill": "#3DA85A",
+                                  "width": "fill_container",
+                                  "height": 81
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "QM9og",
+                              "name": "Col Jul",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "M51kU",
+                                  "name": "Bar Jul",
+                                  "opacity": 0.75,
+                                  "fill": "#3DA85A",
+                                  "width": "fill_container",
+                                  "height": 70
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "P0VQk",
+                              "name": "Col Ago",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "s1K2k1",
+                                  "name": "Bar Ago",
+                                  "opacity": 0.75,
+                                  "fill": "#3DA85A",
+                                  "width": "fill_container",
+                                  "height": 93
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wma3i",
+                              "name": "Col Sep",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "d7LUP",
+                                  "name": "Bar Sep",
+                                  "opacity": 0.75,
+                                  "fill": "#3DA85A",
+                                  "width": "fill_container",
+                                  "height": 81
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IGyuk",
+                              "name": "Col Oct",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "nu1pk",
+                                  "name": "Bar Oct",
+                                  "opacity": 0.75,
+                                  "fill": "#3DA85A",
+                                  "width": "fill_container",
+                                  "height": 101
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "O5Qno5",
+                              "name": "Col Nov",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "R21oWG",
+                                  "name": "Bar Nov",
+                                  "opacity": 0.75,
+                                  "fill": "#3DA85A",
+                                  "width": "fill_container",
+                                  "height": 123
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Pz9Jw",
+                              "name": "Col Dic",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "iXC9a",
+                                  "name": "Bar Dic",
+                                  "fill": "#D6FF03",
+                                  "width": "fill_container",
+                                  "height": 130
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rIKRS",
+                          "name": "X Labels",
+                          "width": "fill_container",
+                          "gap": 4,
+                          "padding": [
+                            6,
+                            0,
+                            14,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LlQT9",
+                              "name": "Lbl Ene",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ene",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Cujas",
+                              "name": "Lbl Feb",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Feb",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "E19EP",
+                              "name": "Lbl Mar",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Mar",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "P7xfr",
+                              "name": "Lbl Abr",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Abr",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "KLcdt",
+                              "name": "Lbl May",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "May",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Rep5U",
+                              "name": "Lbl Jun",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Jun",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "D65Hr",
+                              "name": "Lbl Jul",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Jul",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rEDnt",
+                              "name": "Lbl Ago",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ago",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "F7osx",
+                              "name": "Lbl Sep",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Sep",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "K9wLFz",
+                              "name": "Lbl Oct",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Oct",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "R4PpRv",
+                              "name": "Lbl Nov",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Nov",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "KBIqq",
+                              "name": "Lbl Dic",
+                              "fill": "#D6FF03",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Dic",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e6vtj",
+                  "name": "Egresos por mes",
+                  "width": "fill_container",
+                  "fill": "$neutral-0",
+                  "cornerRadius": 12,
+                  "stroke": "$border-default",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DwKvU",
+                      "name": "Card Header",
+                      "width": "fill_container",
+                      "padding": [
+                        16,
+                        20,
+                        12,
+                        20
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rchm3",
+                          "name": "LblBlock",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "QDAGM",
+                              "name": "Card Title",
+                              "fill": "$text-primary",
+                              "content": "Egresos por mes",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "K9vgOM",
+                              "name": "Card Sub",
+                              "fill": "$text-secondary",
+                              "content": "Enero – Diciembre 2025",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "l1DLm",
+                          "name": "Legend Pill",
+                          "fill": "#F5A6231A",
+                          "cornerRadius": 99,
+                          "stroke": "#F5A623",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 99,
+                              "id": "uUr6T",
+                              "name": "Pill Dot",
+                              "fill": "#F5A623",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "text",
+                              "id": "K3XXQI",
+                              "name": "Pill Lbl",
+                              "fill": "$text-primary",
+                              "content": "Ene – Dic 2025",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "Q3f90x",
+                      "name": "HDivider",
+                      "fill": "$border-default",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Lxhcy",
+                      "name": "Bar Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        16,
+                        20,
+                        0,
+                        20
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "dehvx",
+                          "name": "Bar Area",
+                          "width": "fill_container",
+                          "height": 134,
+                          "gap": 4,
+                          "padding": [
+                            0,
+                            0,
+                            4,
+                            0
+                          ],
+                          "alignItems": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "xFcK6",
+                              "name": "Col Ene",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "fxcqh",
+                                  "name": "Bar Ene",
+                                  "opacity": 0.75,
+                                  "fill": "#F5A623",
+                                  "width": "fill_container",
+                                  "height": 40
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "C6oaOM",
+                              "name": "Col Feb",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "x8IQi",
+                                  "name": "Bar Feb",
+                                  "opacity": 0.75,
+                                  "fill": "#F5A623",
+                                  "width": "fill_container",
+                                  "height": 37
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vSXT7",
+                              "name": "Col Mar",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "CUBTU",
+                                  "name": "Bar Mar",
+                                  "opacity": 0.75,
+                                  "fill": "#F5A623",
+                                  "width": "fill_container",
+                                  "height": 48
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PfKpD",
+                              "name": "Col Abr",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "I1qBy",
+                                  "name": "Bar Abr",
+                                  "opacity": 0.75,
+                                  "fill": "#F5A623",
+                                  "width": "fill_container",
+                                  "height": 45
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IT5DP",
+                              "name": "Col May",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "rwdUO",
+                                  "name": "Bar May",
+                                  "opacity": 0.75,
+                                  "fill": "#F5A623",
+                                  "width": "fill_container",
+                                  "height": 56
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "fJSKb",
+                              "name": "Col Jun",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "jVo80",
+                                  "name": "Bar Jun",
+                                  "opacity": 0.75,
+                                  "fill": "#F5A623",
+                                  "width": "fill_container",
+                                  "height": 53
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vBsQe",
+                              "name": "Col Jul",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "gSTwk",
+                                  "name": "Bar Jul",
+                                  "opacity": 0.75,
+                                  "fill": "#F5A623",
+                                  "width": "fill_container",
+                                  "height": 46
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "P3lZa",
+                              "name": "Col Ago",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "y40Lo",
+                                  "name": "Bar Ago",
+                                  "opacity": 0.75,
+                                  "fill": "#F5A623",
+                                  "width": "fill_container",
+                                  "height": 63
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "CNKtj",
+                              "name": "Col Sep",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "jebUr",
+                                  "name": "Bar Sep",
+                                  "opacity": 0.75,
+                                  "fill": "#F5A623",
+                                  "width": "fill_container",
+                                  "height": 56
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "spf4v",
+                              "name": "Col Oct",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "c3hiTf",
+                                  "name": "Bar Oct",
+                                  "opacity": 0.75,
+                                  "fill": "#F5A623",
+                                  "width": "fill_container",
+                                  "height": 66
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "icnyu",
+                              "name": "Col Nov",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "TaQpU",
+                                  "name": "Bar Nov",
+                                  "opacity": 0.75,
+                                  "fill": "#F5A623",
+                                  "width": "fill_container",
+                                  "height": 71
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "TiYso",
+                              "name": "Col Dic",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "cornerRadius": [
+                                    3,
+                                    3,
+                                    0,
+                                    0
+                                  ],
+                                  "id": "JYpqd",
+                                  "name": "Bar Dic",
+                                  "fill": "#E5484D",
+                                  "width": "fill_container",
+                                  "height": 76
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "R3MLRb",
+                          "name": "X Labels",
+                          "width": "fill_container",
+                          "gap": 4,
+                          "padding": [
+                            6,
+                            0,
+                            14,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "gtWd9",
+                              "name": "Lbl Ene",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ene",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Q2YiX",
+                              "name": "Lbl Feb",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Feb",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "aGqhJ",
+                              "name": "Lbl Mar",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Mar",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "B2uqpe",
+                              "name": "Lbl Abr",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Abr",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "tLFmY",
+                              "name": "Lbl May",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "May",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "V5lwU",
+                              "name": "Lbl Jun",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Jun",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "fnuLi",
+                              "name": "Lbl Jul",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Jul",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "YAPkn",
+                              "name": "Lbl Ago",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Ago",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WX2TU",
+                              "name": "Lbl Sep",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Sep",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WkDE0",
+                              "name": "Lbl Oct",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Oct",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "PtxtE",
+                              "name": "Lbl Nov",
+                              "fill": "$text-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Nov",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Gytjm",
+                              "name": "Lbl Dic",
+                              "fill": "#E5484D",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Dic",
+                              "textAlign": "center",
+                              "fontFamily": "Inter",
+                              "fontSize": 9,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -65661,7 +66890,7 @@
       "type": "frame",
       "id": "F1cBC7",
       "x": 4213,
-      "y": 18410,
+      "y": 18358,
       "name": "Reporte Gerencial",
       "clip": true,
       "width": 1440,
@@ -65793,10 +67022,9 @@
                   "id": "D6CtHa",
                   "name": "Periodo Value",
                   "fill": "$neutral-0",
-                  "content": "Noviembre 2025",
+                  "content": "01/Feb/25 - 30/Abr/25",
                   "fontFamily": "Inter",
-                  "fontSize": 12,
-                  "fontWeight": "600"
+                  "fontSize": 12
                 },
                 {
                   "type": "icon",
@@ -65855,6 +67083,123 @@
                   "icon": "chevron-down",
                   "library": "lucide",
                   "fill": "$neutral-400"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "T51GhX",
+              "name": "Search Cliente",
+              "width": 150,
+              "fill": "$neutral-800",
+              "cornerRadius": 6,
+              "stroke": "$neutral-700",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "gap": 8,
+              "padding": [
+                8,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "I4JNil",
+                  "name": "Cliente Search Icon",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "$neutral-400"
+                },
+                {
+                  "type": "text",
+                  "id": "G0YjIW",
+                  "name": "Cliente Placeholder",
+                  "fill": "$neutral-500",
+                  "content": "Proyecto...",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BLzXv",
+              "name": "Search Cliente",
+              "width": 150,
+              "fill": "$neutral-800",
+              "cornerRadius": 6,
+              "stroke": "$neutral-700",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "gap": 8,
+              "padding": [
+                8,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "u1skGg",
+                  "name": "Cliente Search Icon",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "$neutral-400"
+                },
+                {
+                  "type": "text",
+                  "id": "F4f6IR",
+                  "name": "Cliente Placeholder",
+                  "fill": "$neutral-500",
+                  "content": "Cliente...",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dwH2S",
+              "name": "Search Cliente",
+              "width": 150,
+              "fill": "$neutral-800",
+              "cornerRadius": 6,
+              "stroke": "$neutral-700",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "gap": 8,
+              "padding": [
+                8,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "OgN0u",
+                  "name": "Cliente Search Icon",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "$neutral-400"
+                },
+                {
+                  "type": "text",
+                  "id": "KtMhh",
+                  "name": "Cliente Placeholder",
+                  "fill": "$neutral-500",
+                  "content": "Proveedor...",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -66232,7 +67577,7 @@
                       "id": "VaGyT",
                       "name": "Result Label",
                       "fill": "$neutral-500",
-                      "content": "RESULTADO DEL MES",
+                      "content": "RESULTADO DEL PERÍODO",
                       "fontFamily": "Inter",
                       "fontSize": 11,
                       "fontWeight": "600",
@@ -66270,7 +67615,7 @@
                       "id": "caR7c",
                       "name": "Result Period",
                       "fill": "$neutral-500",
-                      "content": "Noviembre 2025",
+                      "content": "01/Feb - 30/Abr",
                       "fontFamily": "Inter",
                       "fontSize": 11,
                       "fontWeight": "normal"
@@ -66284,6 +67629,588 @@
                       "fontFamily": "Inter",
                       "fontSize": 36,
                       "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "M5dbf",
+          "name": "Content Area",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            20,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ghpig",
+              "name": "Ingresos Table",
+              "width": "fill_container",
+              "fill": "$neutral-0",
+              "cornerRadius": "$radius-lg",
+              "stroke": "$border-default",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hyasq",
+                  "name": "THeader",
+                  "width": "fill_container",
+                  "fill": "$neutral-50",
+                  "cornerRadius": [
+                    "$radius-lg",
+                    "$radius-lg",
+                    0,
+                    0
+                  ],
+                  "stroke": "$border-default",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "padding": [
+                    11,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Jx1Ny",
+                      "name": "TH FECHA FACT.",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "FECHA",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "RiMG1",
+                      "name": "TH SUBTOTAL",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "INGRESO O GASTO",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "efWGc",
+                      "name": "TH TOTAL",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "TIPO",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "oQ8vD",
+                      "name": "TH IVA",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "MONTO",
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.8
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EdDNu",
+                  "name": "R Producción stand",
+                  "width": "fill_container",
+                  "stroke": "$border-default",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KNGbS",
+                      "name": "CF",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "10/Abr/2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "w5T1b",
+                      "name": "CCl",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Gasto",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "huZfS",
+                      "name": "CPr",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "Nómina",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kKtwm",
+                      "name": "CTot",
+                      "fill": "$status-danger",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "-$210,300.00",
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "U3jmxO",
+                  "name": "R Producción stand",
+                  "width": "fill_container",
+                  "stroke": "$border-default",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yBT5G",
+                      "name": "CF",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "15/Abr/2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mkLZa",
+                      "name": "CCl",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Gasto",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "I8LTI",
+                      "name": "CPr",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "Comisión",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "L2jt0k",
+                      "name": "CTot",
+                      "fill": "$status-danger",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "-$54,800.00",
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b0urDq",
+                  "name": "R Producción stand",
+                  "width": "fill_container",
+                  "stroke": "$border-default",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "XAQh5",
+                      "name": "CF",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "05/Abr/2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bRPNz",
+                      "name": "CCl",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Gasto",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "v8zbh",
+                      "name": "CPr",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "General",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qQIXI",
+                      "name": "CTot",
+                      "fill": "$status-danger",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "-$580,400.00",
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p82k4M",
+                  "name": "R Montaje Photo Opp",
+                  "width": "fill_container",
+                  "stroke": "$border-default",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pq7Pq",
+                      "name": "CF",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "20/Mar/2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cq7VA",
+                      "name": "CCl",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Ingreso",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WGOyj",
+                      "name": "CRs",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "—",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EO7WJ",
+                      "name": "CTot",
+                      "fill": "$status-success",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "$890,000.00",
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q7zwN",
+                  "name": "R Montaje Photo Opp",
+                  "width": "fill_container",
+                  "stroke": "$border-default",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OcXKJ",
+                      "name": "CF",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "12/Mar/2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pNI1v",
+                      "name": "CCl",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Ingreso",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WiLK4",
+                      "name": "CRs",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "—",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J9UO2v",
+                      "name": "CTot",
+                      "fill": "$status-success",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "$512,697.00",
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z30AW",
+                  "name": "R Montaje Photo Opp",
+                  "width": "fill_container",
+                  "stroke": "$border-default",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "U1BYE8",
+                      "name": "CF",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "03/Feb/2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G9wvbY",
+                      "name": "CCl",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Ingreso",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XglhD",
+                      "name": "CRs",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "—",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "q0ufc",
+                      "name": "CTot",
+                      "fill": "$status-success",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "$272,000.00",
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qRaYd",
+                  "name": "R Producción stand",
+                  "width": "fill_container",
+                  "stroke": "$border-default",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "padding": [
+                    9,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pvGOp",
+                      "name": "CF",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "08/Feb/2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rKb9A",
+                      "name": "CCl",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": 140,
+                      "content": "Gasto",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zOR2m",
+                      "name": "CPr",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "General",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wTd4W",
+                      "name": "CTot",
+                      "fill": "$status-danger",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "-$400,000.00",
+                      "textAlign": "right",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600"
                     }
                   ]
                 }
@@ -67272,40 +69199,90 @@
         },
         {
           "type": "frame",
-          "id": "v2vX4R",
-          "name": "KPI Row",
+          "id": "YkRuN",
+          "name": "Content Area",
           "width": "fill_container",
-          "fill": "$brand-white",
-          "gap": 16,
+          "layout": "vertical",
           "padding": [
             20,
-            24,
-            16,
             24
           ],
-          "alignItems": "center",
           "children": [
             {
               "type": "frame",
-              "id": "N7LPa",
-              "name": "Series Toggle",
-              "gap": 8,
+              "id": "AiBeI",
+              "name": "Filtros",
+              "width": "fill_container",
+              "fill": "$brand-white",
+              "gap": 16,
+              "padding": [
+                20,
+                24,
+                16,
+                24
+              ],
               "alignItems": "center",
               "children": [
                 {
                   "type": "frame",
-                  "id": "F1T3B",
+                  "id": "nZGjb",
                   "name": "Series Toggle",
                   "gap": 8,
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "jGcUq",
-                      "name": "Series Ingresos",
-                      "fill": "#D6FF031A",
+                      "id": "HYnJp",
+                      "name": "Series Toggle",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "lGaus",
+                          "name": "Series Ingresos",
+                          "fill": "#D6FF031A",
+                          "cornerRadius": 99,
+                          "stroke": "#D6FF03",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 6,
+                          "padding": [
+                            5,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 99,
+                              "id": "ZkGXr",
+                              "name": "Dot Ingresos",
+                              "fill": "#D6FF03",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "text",
+                              "id": "f2glVk",
+                              "name": "Pill Label Ingresos",
+                              "fill": "$text-primary",
+                              "content": "Ingresos",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vPnX6",
+                      "name": "Series Egresos",
+                      "fill": "$neutral-100",
                       "cornerRadius": 99,
-                      "stroke": "#D6FF03",
+                      "stroke": "$border-default",
                       "strokeWidth": 1,
                       "strokeAlignment": "inner",
                       "gap": 6,
@@ -67318,134 +69295,97 @@
                         {
                           "type": "rectangle",
                           "cornerRadius": 99,
-                          "id": "PFcsL",
-                          "name": "Dot Ingresos",
-                          "fill": "#D6FF03",
+                          "id": "s13uz9",
+                          "name": "Dot Egresos",
+                          "fill": "#F5A623",
                           "width": 8,
                           "height": 8
                         },
                         {
                           "type": "text",
-                          "id": "B7mZZp",
-                          "name": "Pill Label Ingresos",
-                          "fill": "$text-primary",
-                          "content": "Ingresos",
+                          "id": "C1LuI",
+                          "name": "Pill Label Egresos",
+                          "fill": "$text-secondary",
+                          "content": "Egresos",
                           "fontFamily": "Inter",
                           "fontSize": 11,
-                          "fontWeight": "600"
+                          "fontWeight": "normal"
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "W9kgc",
-                  "name": "Series Egresos",
-                  "fill": "$neutral-100",
-                  "cornerRadius": 99,
-                  "stroke": "$border-default",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 6,
-                  "padding": [
-                    5,
-                    10
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "rectangle",
-                      "cornerRadius": 99,
-                      "id": "kuH0v",
-                      "name": "Dot Egresos",
-                      "fill": "#F5A623",
-                      "width": 8,
-                      "height": 8
                     },
                     {
-                      "type": "text",
-                      "id": "GnTHj",
-                      "name": "Pill Label Egresos",
-                      "fill": "$text-secondary",
-                      "content": "Egresos",
-                      "fontFamily": "Inter",
-                      "fontSize": 11,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "b8VzW",
-                  "name": "Series Nóminas",
-                  "fill": "$neutral-100",
-                  "cornerRadius": 99,
-                  "stroke": "$border-default",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 6,
-                  "padding": [
-                    5,
-                    10
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "rectangle",
+                      "type": "frame",
+                      "id": "DWs6A",
+                      "name": "Series Nóminas",
+                      "fill": "$neutral-100",
                       "cornerRadius": 99,
-                      "id": "p0k2jv",
-                      "name": "Dot Nóminas",
-                      "fill": "#2DB8A3",
-                      "width": 8,
-                      "height": 8
+                      "stroke": "$border-default",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 6,
+                      "padding": [
+                        5,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 99,
+                          "id": "CoC2O",
+                          "name": "Dot Nóminas",
+                          "fill": "#2DB8A3",
+                          "width": 8,
+                          "height": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "NBddq",
+                          "name": "Pill Label Nóminas",
+                          "fill": "$text-secondary",
+                          "content": "Nóminas",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "id": "BS3kR",
-                      "name": "Pill Label Nóminas",
-                      "fill": "$text-secondary",
-                      "content": "Nóminas",
-                      "fontFamily": "Inter",
-                      "fontSize": 11,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "GgoPu",
-                  "name": "Series Comisiones",
-                  "fill": "$neutral-100",
-                  "cornerRadius": 99,
-                  "stroke": "$border-default",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 6,
-                  "padding": [
-                    5,
-                    10
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "rectangle",
+                      "type": "frame",
+                      "id": "z79jF",
+                      "name": "Series Comisiones",
+                      "fill": "$neutral-100",
                       "cornerRadius": 99,
-                      "id": "TCV7V",
-                      "name": "Dot Comisiones",
-                      "fill": "#E5484D",
-                      "width": 8,
-                      "height": 8
-                    },
-                    {
-                      "type": "text",
-                      "id": "N0mNLt",
-                      "name": "Pill Label Comisiones",
-                      "fill": "$text-secondary",
-                      "content": "Comisiones",
-                      "fontFamily": "Inter",
-                      "fontSize": 11,
-                      "fontWeight": "normal"
+                      "stroke": "$border-default",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 6,
+                      "padding": [
+                        5,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 99,
+                          "id": "yvhUm",
+                          "name": "Dot Comisiones",
+                          "fill": "#E5484D",
+                          "width": 8,
+                          "height": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "HxpPL",
+                          "name": "Pill Label Comisiones",
+                          "fill": "$text-secondary",
+                          "content": "Comisiones",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -67460,6 +69400,8 @@
           "width": "fill_container",
           "layout": "vertical",
           "padding": [
+            0,
+            24,
             20,
             24
           ],
@@ -69917,1799 +71859,6 @@
                       "fontWeight": "normal"
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "SY01x",
-      "x": 5717,
-      "y": 18779,
-      "name": "Bar Charts Row",
-      "width": "fill_container(1440)",
-      "gap": 16,
-      "padding": [
-        0,
-        24,
-        24,
-        24
-      ],
-      "children": [
-        {
-          "type": "frame",
-          "id": "f9YgE",
-          "name": "Ingresos por mes",
-          "width": "fill_container",
-          "fill": "$neutral-0",
-          "cornerRadius": 12,
-          "stroke": "$border-default",
-          "strokeWidth": 1,
-          "strokeAlignment": "inner",
-          "layout": "vertical",
-          "children": [
-            {
-              "type": "frame",
-              "id": "k4L6V7",
-              "name": "Card Header",
-              "width": "fill_container",
-              "padding": [
-                16,
-                20,
-                12,
-                20
-              ],
-              "justifyContent": "space_between",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "ti147",
-                  "name": "LblBlock",
-                  "layout": "vertical",
-                  "gap": 2,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "P1fWI3",
-                      "name": "Card Title",
-                      "fill": "$text-primary",
-                      "content": "Ingresos por mes",
-                      "fontFamily": "Inter",
-                      "fontSize": 14,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "FiT67",
-                      "name": "Card Sub",
-                      "fill": "$text-secondary",
-                      "content": "Enero – Diciembre 2025",
-                      "fontFamily": "Inter",
-                      "fontSize": 11,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "zj8Qb",
-                  "name": "Legend Pill",
-                  "fill": "#3DA85A1A",
-                  "cornerRadius": 99,
-                  "stroke": "#3DA85A",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 6,
-                  "padding": [
-                    4,
-                    10
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "rectangle",
-                      "cornerRadius": 99,
-                      "id": "xgsDW",
-                      "name": "Pill Dot",
-                      "fill": "#3DA85A",
-                      "width": 8,
-                      "height": 8
-                    },
-                    {
-                      "type": "text",
-                      "id": "cFQDY",
-                      "name": "Pill Lbl",
-                      "fill": "$text-primary",
-                      "content": "Ene – Dic 2025",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "600"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "rectangle",
-              "id": "NFPEZ",
-              "name": "HDivider",
-              "fill": "$border-default",
-              "width": "fill_container",
-              "height": 1
-            },
-            {
-              "type": "frame",
-              "id": "YnEuq",
-              "name": "Bar Body",
-              "width": "fill_container",
-              "layout": "vertical",
-              "padding": [
-                16,
-                20,
-                0,
-                20
-              ],
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "hDf6P",
-                  "name": "Bar Area",
-                  "width": "fill_container",
-                  "height": 134,
-                  "gap": 4,
-                  "padding": [
-                    0,
-                    0,
-                    4,
-                    0
-                  ],
-                  "alignItems": "end",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "YVTKY",
-                      "name": "Col Ene",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "C0nUk",
-                          "name": "Bar Ene",
-                          "opacity": 0.75,
-                          "fill": "#3DA85A",
-                          "width": "fill_container",
-                          "height": 64
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "gTGWf",
-                      "name": "Col Feb",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "YeyiR",
-                          "name": "Bar Feb",
-                          "opacity": 0.75,
-                          "fill": "#3DA85A",
-                          "width": "fill_container",
-                          "height": 57
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "SAp7l",
-                      "name": "Col Mar",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "v0kHk",
-                          "name": "Bar Mar",
-                          "opacity": 0.75,
-                          "fill": "#3DA85A",
-                          "width": "fill_container",
-                          "height": 75
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "ro1op",
-                      "name": "Col Abr",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "uhd8p",
-                          "name": "Bar Abr",
-                          "opacity": 0.75,
-                          "fill": "#3DA85A",
-                          "width": "fill_container",
-                          "height": 68
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "N5p1L2",
-                      "name": "Col May",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "Tlu4B",
-                          "name": "Bar May",
-                          "opacity": 0.75,
-                          "fill": "#3DA85A",
-                          "width": "fill_container",
-                          "height": 85
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "OKH18",
-                      "name": "Col Jun",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "WY20E",
-                          "name": "Bar Jun",
-                          "opacity": 0.75,
-                          "fill": "#3DA85A",
-                          "width": "fill_container",
-                          "height": 81
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "QM9og",
-                      "name": "Col Jul",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "M51kU",
-                          "name": "Bar Jul",
-                          "opacity": 0.75,
-                          "fill": "#3DA85A",
-                          "width": "fill_container",
-                          "height": 70
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "P0VQk",
-                      "name": "Col Ago",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "s1K2k1",
-                          "name": "Bar Ago",
-                          "opacity": 0.75,
-                          "fill": "#3DA85A",
-                          "width": "fill_container",
-                          "height": 93
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "wma3i",
-                      "name": "Col Sep",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "d7LUP",
-                          "name": "Bar Sep",
-                          "opacity": 0.75,
-                          "fill": "#3DA85A",
-                          "width": "fill_container",
-                          "height": 81
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "IGyuk",
-                      "name": "Col Oct",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "nu1pk",
-                          "name": "Bar Oct",
-                          "opacity": 0.75,
-                          "fill": "#3DA85A",
-                          "width": "fill_container",
-                          "height": 101
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "O5Qno5",
-                      "name": "Col Nov",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "R21oWG",
-                          "name": "Bar Nov",
-                          "opacity": 0.75,
-                          "fill": "#3DA85A",
-                          "width": "fill_container",
-                          "height": 123
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Pz9Jw",
-                      "name": "Col Dic",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "iXC9a",
-                          "name": "Bar Dic",
-                          "fill": "#D6FF03",
-                          "width": "fill_container",
-                          "height": 130
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "rIKRS",
-                  "name": "X Labels",
-                  "width": "fill_container",
-                  "gap": 4,
-                  "padding": [
-                    6,
-                    0,
-                    14,
-                    0
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "LlQT9",
-                      "name": "Lbl Ene",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Ene",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "Cujas",
-                      "name": "Lbl Feb",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Feb",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "E19EP",
-                      "name": "Lbl Mar",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Mar",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "P7xfr",
-                      "name": "Lbl Abr",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Abr",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "KLcdt",
-                      "name": "Lbl May",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "May",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "Rep5U",
-                      "name": "Lbl Jun",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Jun",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "D65Hr",
-                      "name": "Lbl Jul",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Jul",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "rEDnt",
-                      "name": "Lbl Ago",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Ago",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "F7osx",
-                      "name": "Lbl Sep",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Sep",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "K9wLFz",
-                      "name": "Lbl Oct",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Oct",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "R4PpRv",
-                      "name": "Lbl Nov",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Nov",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "KBIqq",
-                      "name": "Lbl Dic",
-                      "fill": "#D6FF03",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Dic",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "700"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "e6vtj",
-          "name": "Egresos por mes",
-          "width": "fill_container",
-          "fill": "$neutral-0",
-          "cornerRadius": 12,
-          "stroke": "$border-default",
-          "strokeWidth": 1,
-          "strokeAlignment": "inner",
-          "layout": "vertical",
-          "children": [
-            {
-              "type": "frame",
-              "id": "DwKvU",
-              "name": "Card Header",
-              "width": "fill_container",
-              "padding": [
-                16,
-                20,
-                12,
-                20
-              ],
-              "justifyContent": "space_between",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "rchm3",
-                  "name": "LblBlock",
-                  "layout": "vertical",
-                  "gap": 2,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "QDAGM",
-                      "name": "Card Title",
-                      "fill": "$text-primary",
-                      "content": "Egresos por mes",
-                      "fontFamily": "Inter",
-                      "fontSize": 14,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "K9vgOM",
-                      "name": "Card Sub",
-                      "fill": "$text-secondary",
-                      "content": "Enero – Diciembre 2025",
-                      "fontFamily": "Inter",
-                      "fontSize": 11,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "l1DLm",
-                  "name": "Legend Pill",
-                  "fill": "#F5A6231A",
-                  "cornerRadius": 99,
-                  "stroke": "#F5A623",
-                  "strokeWidth": 1,
-                  "strokeAlignment": "inner",
-                  "gap": 6,
-                  "padding": [
-                    4,
-                    10
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "rectangle",
-                      "cornerRadius": 99,
-                      "id": "uUr6T",
-                      "name": "Pill Dot",
-                      "fill": "#F5A623",
-                      "width": 8,
-                      "height": 8
-                    },
-                    {
-                      "type": "text",
-                      "id": "K3XXQI",
-                      "name": "Pill Lbl",
-                      "fill": "$text-primary",
-                      "content": "Ene – Dic 2025",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "600"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "rectangle",
-              "id": "Q3f90x",
-              "name": "HDivider",
-              "fill": "$border-default",
-              "width": "fill_container",
-              "height": 1
-            },
-            {
-              "type": "frame",
-              "id": "Lxhcy",
-              "name": "Bar Body",
-              "width": "fill_container",
-              "layout": "vertical",
-              "padding": [
-                16,
-                20,
-                0,
-                20
-              ],
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "dehvx",
-                  "name": "Bar Area",
-                  "width": "fill_container",
-                  "height": 134,
-                  "gap": 4,
-                  "padding": [
-                    0,
-                    0,
-                    4,
-                    0
-                  ],
-                  "alignItems": "end",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "xFcK6",
-                      "name": "Col Ene",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "fxcqh",
-                          "name": "Bar Ene",
-                          "opacity": 0.75,
-                          "fill": "#F5A623",
-                          "width": "fill_container",
-                          "height": 40
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "C6oaOM",
-                      "name": "Col Feb",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "x8IQi",
-                          "name": "Bar Feb",
-                          "opacity": 0.75,
-                          "fill": "#F5A623",
-                          "width": "fill_container",
-                          "height": 37
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "vSXT7",
-                      "name": "Col Mar",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "CUBTU",
-                          "name": "Bar Mar",
-                          "opacity": 0.75,
-                          "fill": "#F5A623",
-                          "width": "fill_container",
-                          "height": 48
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "PfKpD",
-                      "name": "Col Abr",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "I1qBy",
-                          "name": "Bar Abr",
-                          "opacity": 0.75,
-                          "fill": "#F5A623",
-                          "width": "fill_container",
-                          "height": 45
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "IT5DP",
-                      "name": "Col May",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "rwdUO",
-                          "name": "Bar May",
-                          "opacity": 0.75,
-                          "fill": "#F5A623",
-                          "width": "fill_container",
-                          "height": 56
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "fJSKb",
-                      "name": "Col Jun",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "jVo80",
-                          "name": "Bar Jun",
-                          "opacity": 0.75,
-                          "fill": "#F5A623",
-                          "width": "fill_container",
-                          "height": 53
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "vBsQe",
-                      "name": "Col Jul",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "gSTwk",
-                          "name": "Bar Jul",
-                          "opacity": 0.75,
-                          "fill": "#F5A623",
-                          "width": "fill_container",
-                          "height": 46
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "P3lZa",
-                      "name": "Col Ago",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "y40Lo",
-                          "name": "Bar Ago",
-                          "opacity": 0.75,
-                          "fill": "#F5A623",
-                          "width": "fill_container",
-                          "height": 63
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "CNKtj",
-                      "name": "Col Sep",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "jebUr",
-                          "name": "Bar Sep",
-                          "opacity": 0.75,
-                          "fill": "#F5A623",
-                          "width": "fill_container",
-                          "height": 56
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "spf4v",
-                      "name": "Col Oct",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "c3hiTf",
-                          "name": "Bar Oct",
-                          "opacity": 0.75,
-                          "fill": "#F5A623",
-                          "width": "fill_container",
-                          "height": 66
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "icnyu",
-                      "name": "Col Nov",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "TaQpU",
-                          "name": "Bar Nov",
-                          "opacity": 0.75,
-                          "fill": "#F5A623",
-                          "width": "fill_container",
-                          "height": 71
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "TiYso",
-                      "name": "Col Dic",
-                      "width": "fill_container",
-                      "layout": "vertical",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": [
-                            3,
-                            3,
-                            0,
-                            0
-                          ],
-                          "id": "JYpqd",
-                          "name": "Bar Dic",
-                          "fill": "#E5484D",
-                          "width": "fill_container",
-                          "height": 76
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "R3MLRb",
-                  "name": "X Labels",
-                  "width": "fill_container",
-                  "gap": 4,
-                  "padding": [
-                    6,
-                    0,
-                    14,
-                    0
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "gtWd9",
-                      "name": "Lbl Ene",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Ene",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "Q2YiX",
-                      "name": "Lbl Feb",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Feb",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "aGqhJ",
-                      "name": "Lbl Mar",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Mar",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "B2uqpe",
-                      "name": "Lbl Abr",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Abr",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "tLFmY",
-                      "name": "Lbl May",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "May",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "V5lwU",
-                      "name": "Lbl Jun",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Jun",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "fnuLi",
-                      "name": "Lbl Jul",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Jul",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "YAPkn",
-                      "name": "Lbl Ago",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Ago",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "WX2TU",
-                      "name": "Lbl Sep",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Sep",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "WkDE0",
-                      "name": "Lbl Oct",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Oct",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "PtxtE",
-                      "name": "Lbl Nov",
-                      "fill": "$text-secondary",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Nov",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "Gytjm",
-                      "name": "Lbl Dic",
-                      "fill": "#E5484D",
-                      "textGrowth": "fixed-width",
-                      "width": "fill_container",
-                      "content": "Dic",
-                      "textAlign": "center",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "700"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "sK4qt",
-      "x": 5717,
-      "y": 18391,
-      "name": "Chart Section",
-      "width": "fill_container(1440)",
-      "height": 300,
-      "layout": "vertical",
-      "padding": [
-        0,
-        24,
-        20,
-        24
-      ],
-      "children": [
-        {
-          "type": "frame",
-          "id": "c1rEJ2",
-          "name": "Chart Card",
-          "width": "fill_container",
-          "height": "fill_container",
-          "fill": "$neutral-0",
-          "cornerRadius": 12,
-          "stroke": "$border-default",
-          "strokeWidth": 1,
-          "strokeAlignment": "inner",
-          "layout": "vertical",
-          "children": [
-            {
-              "type": "frame",
-              "id": "K5cfz",
-              "name": "Chart Header",
-              "width": "fill_container",
-              "padding": [
-                16,
-                20,
-                12,
-                20
-              ],
-              "justifyContent": "space_between",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "jPHNi",
-                  "name": "Chart Title Block",
-                  "layout": "vertical",
-                  "gap": 2,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "ODe6h",
-                      "name": "Chart Title",
-                      "fill": "$text-primary",
-                      "content": "Tendencia anual 2025",
-                      "fontFamily": "Inter",
-                      "fontSize": 15,
-                      "fontWeight": "700"
-                    },
-                    {
-                      "type": "text",
-                      "id": "xxELN",
-                      "name": "Chart Subtitle",
-                      "fill": "$text-secondary",
-                      "content": "Enero — Diciembre · El punto resaltado corresponde al mes seleccionado",
-                      "fontFamily": "Inter",
-                      "fontSize": 11,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "adn9C",
-                  "name": "Series Toggle",
-                  "gap": 8,
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "o3pRn",
-                      "name": "Series Ingresos",
-                      "fill": "#D6FF031A",
-                      "cornerRadius": 99,
-                      "stroke": "#D6FF03",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 6,
-                      "padding": [
-                        5,
-                        10
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 99,
-                          "id": "CjswH",
-                          "name": "Dot Ingresos",
-                          "fill": "#D6FF03",
-                          "width": 8,
-                          "height": 8
-                        },
-                        {
-                          "type": "text",
-                          "id": "ySD6E",
-                          "name": "Pill Label Ingresos",
-                          "fill": "$text-primary",
-                          "content": "Ingresos",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "QgYao",
-                      "name": "Series Egresos",
-                      "fill": "$neutral-100",
-                      "cornerRadius": 99,
-                      "stroke": "$border-default",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 6,
-                      "padding": [
-                        5,
-                        10
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 99,
-                          "id": "QYJJn",
-                          "name": "Dot Egresos",
-                          "fill": "#F5A623",
-                          "width": 8,
-                          "height": 8
-                        },
-                        {
-                          "type": "text",
-                          "id": "bAif1",
-                          "name": "Pill Label Egresos",
-                          "fill": "$text-secondary",
-                          "content": "Egresos",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "FOaxd",
-                      "name": "Series Nóminas",
-                      "fill": "$neutral-100",
-                      "cornerRadius": 99,
-                      "stroke": "$border-default",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 6,
-                      "padding": [
-                        5,
-                        10
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 99,
-                          "id": "I2yWY",
-                          "name": "Dot Nóminas",
-                          "fill": "#2DB8A3",
-                          "width": 8,
-                          "height": 8
-                        },
-                        {
-                          "type": "text",
-                          "id": "NP4BK",
-                          "name": "Pill Label Nóminas",
-                          "fill": "$text-secondary",
-                          "content": "Nóminas",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "p6XxBL",
-                      "name": "Series Comisiones",
-                      "fill": "$neutral-100",
-                      "cornerRadius": 99,
-                      "stroke": "$border-default",
-                      "strokeWidth": 1,
-                      "strokeAlignment": "inner",
-                      "gap": 6,
-                      "padding": [
-                        5,
-                        10
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": 99,
-                          "id": "QhJda",
-                          "name": "Dot Comisiones",
-                          "fill": "#E5484D",
-                          "width": 8,
-                          "height": 8
-                        },
-                        {
-                          "type": "text",
-                          "id": "v0HBs",
-                          "name": "Pill Label Comisiones",
-                          "fill": "$text-secondary",
-                          "content": "Comisiones",
-                          "fontFamily": "Inter",
-                          "fontSize": 11,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "rectangle",
-              "id": "ELHiG",
-              "name": "Chart Divider",
-              "fill": "$border-default",
-              "width": "fill_container",
-              "height": 1
-            },
-            {
-              "type": "frame",
-              "id": "M6CYfz",
-              "name": "Chart Body",
-              "width": "fill_container",
-              "height": "fill_container",
-              "gap": 8,
-              "padding": [
-                16,
-                20
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "SvTV4",
-                  "name": "Y Axis",
-                  "width": 56,
-                  "height": "fill_container",
-                  "layout": "vertical",
-                  "justifyContent": "space_between",
-                  "alignItems": "end",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "qRsv9",
-                      "name": "Y $2M",
-                      "fill": "$text-secondary",
-                      "content": "$2M",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "ulAzk",
-                      "name": "Y $1.5M",
-                      "fill": "$text-secondary",
-                      "content": "$1.5M",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "A0Pq0O",
-                      "name": "Y $1M",
-                      "fill": "$text-secondary",
-                      "content": "$1M",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "VJtW8",
-                      "name": "Y $500K",
-                      "fill": "$text-secondary",
-                      "content": "$500K",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "LV3hj",
-                      "name": "Y $0",
-                      "fill": "$text-secondary",
-                      "content": "$0",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "d9RdZr",
-                  "name": "Plot Area",
-                  "clip": true,
-                  "width": "fill_container",
-                  "height": "fill_container",
-                  "cornerRadius": 4,
-                  "layout": "none",
-                  "children": [
-                    {
-                      "type": "rectangle",
-                      "id": "sGOgh",
-                      "layoutPosition": "absolute",
-                      "x": 0,
-                      "y": 0,
-                      "name": "Grid H 0",
-                      "fill": "$border-default",
-                      "width": 1200,
-                      "height": 1
-                    },
-                    {
-                      "type": "rectangle",
-                      "id": "zsXCe",
-                      "layoutPosition": "absolute",
-                      "x": 0,
-                      "y": 48,
-                      "name": "Grid H 1",
-                      "fill": "$border-default",
-                      "width": 1200,
-                      "height": 1
-                    },
-                    {
-                      "type": "rectangle",
-                      "id": "ZoUn7",
-                      "layoutPosition": "absolute",
-                      "x": 0,
-                      "y": 96,
-                      "name": "Grid H 2",
-                      "fill": "$border-default",
-                      "width": 1200,
-                      "height": 1
-                    },
-                    {
-                      "type": "rectangle",
-                      "id": "llxxj",
-                      "layoutPosition": "absolute",
-                      "x": 0,
-                      "y": 144,
-                      "name": "Grid H 3",
-                      "fill": "$border-default",
-                      "width": 1200,
-                      "height": 1
-                    },
-                    {
-                      "type": "path",
-                      "id": "ho7hs",
-                      "layoutPosition": "absolute",
-                      "x": 0,
-                      "y": 0,
-                      "name": "Line Ingresos",
-                      "geometry": "M0 140c30-2 60-10 100-30 30-15 60-30 100-25 40 5 70 45 110 35 40-10 70-50 110-60 40-10 70 15 110 20 40 5 70-30 110-35 40-5 70 20 110 27 40 8 70-17 110-22 40-5 70-10 110-15 30-5 80-15 130-20",
-                      "viewBox": [
-                        0,
-                        0,
-                        1100,
-                        192
-                      ],
-                      "width": 1100,
-                      "height": 192,
-                      "stroke": "#D6FF03",
-                      "strokeWidth": 2.5
-                    },
-                    {
-                      "type": "ellipse",
-                      "id": "dHdKF",
-                      "layoutPosition": "absolute",
-                      "x": 1088,
-                      "y": 7,
-                      "name": "Highlight Dec",
-                      "fill": "#D6FF03",
-                      "width": 12,
-                      "height": 12,
-                      "effect": {
-                        "type": "shadow",
-                        "shadowType": "outer",
-                        "color": "#D6FF0366",
-                        "blur": 8,
-                        "spread": 2
-                      }
-                    },
-                    {
-                      "type": "text",
-                      "id": "OBr0a",
-                      "layoutPosition": "absolute",
-                      "x": 1068,
-                      "y": -14,
-                      "name": "Dec Label",
-                      "fill": "#D6FF03",
-                      "content": "Dic",
-                      "fontFamily": "Inter",
-                      "fontSize": 10,
-                      "fontWeight": "700"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "a5IEpI",
-              "name": "X Axis",
-              "width": "fill_container",
-              "padding": [
-                0,
-                20,
-                14,
-                76
-              ],
-              "justifyContent": "space_between",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "WdiBZ",
-                  "name": "Month Ene",
-                  "fill": "$text-secondary",
-                  "content": "Ene",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "o1CgEO",
-                  "name": "Month Feb",
-                  "fill": "$text-secondary",
-                  "content": "Feb",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "m1bGJf",
-                  "name": "Month Mar",
-                  "fill": "$text-secondary",
-                  "content": "Mar",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "tE7Yo",
-                  "name": "Month Abr",
-                  "fill": "$text-secondary",
-                  "content": "Abr",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "t57oB",
-                  "name": "Month May",
-                  "fill": "$text-secondary",
-                  "content": "May",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Esrpo",
-                  "name": "Month Jun",
-                  "fill": "$text-secondary",
-                  "content": "Jun",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "kuXJi",
-                  "name": "Month Jul",
-                  "fill": "$text-secondary",
-                  "content": "Jul",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "ZkcNO",
-                  "name": "Month Ago",
-                  "fill": "$text-secondary",
-                  "content": "Ago",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "oK4us",
-                  "name": "Month Sep",
-                  "fill": "$text-secondary",
-                  "content": "Sep",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "jUH3c",
-                  "name": "Month Oct",
-                  "fill": "$text-secondary",
-                  "content": "Oct",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "Yrb5T",
-                  "name": "Month Nov",
-                  "fill": "$text-secondary",
-                  "content": "Nov",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "C88r9",
-                  "name": "Month Dic",
-                  "fill": "#D6FF03",
-                  "content": "Dic",
-                  "fontFamily": "Inter",
-                  "fontSize": 10,
-                  "fontWeight": "700"
                 }
               ]
             }
